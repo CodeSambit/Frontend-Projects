@@ -1,0 +1,646 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    height: 80vh;
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2021/09/colorful-mountains-night-minimal-4k_1630531611-2048x1152.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    color: white;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.container p{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.container button{
+    margin: 30px;
+    color: white;
+    font-size: 25px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #4EB478;
+}
+
+.container button:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #4EB478;
+
+}
+
+/* --------------------------------------navbar---------------------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 80px;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    display: flex
+}
+
+.navbar .logo{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-links li a{
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.nav-links li{
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links .home{
+        color: #4EB478;
+}
+
+.nav-links li a:hover{
+    color: #4EB478;
+    transition: all 0.3s ease-in-out;
+}
+
+/* -------------------------------------------section1------------------------------------- */
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 30px;
+}
+
+.section1 img {
+    border-radius: 10px;
+    max-height: 50vh;
+}
+
+.content1{
+    padding: 30px;
+   
+}
+
+.content1 h1{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.content1 p{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.content1 .box{
+    display: flex;
+    /* border: 1px solid black; */
+    gap:5px;
+    padding: 10px 0px;
+}
+
+.content1 .box h2{
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+
+/* ----------------------------------------section2------------------------------------------- */
+
+
+.section2{
+    background-color: #F4F4F4;
+    display: flex;
+    padding: 23px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section2 .brand img{
+    height: 40px;
+}
+
+
+/* ----------------------------------------section3------------------------------------------- */
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 50px 90px;
+    flex-wrap: wrap;
+}
+
+.section3__box{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color:#F4F4F4;
+    margin: 15px;
+    max-width: 450px;
+   
+}
+.section3__box img{
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.section3__box h1 , .section3__box p{
+    padding: 10px;
+    color: rgb(75, 75, 75);
+}
+
+.section3__box:hover{
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgb(136, 136, 136);
+}
+.section3__box h1:hover{
+    color: #4EB478;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ----------------------------------------section4 Call to Action-------------------------------- */
+
+.section4_call_to_action{
+    background-image: url(https://bootstrapmade.com/demo/templates/Plato/assets/img/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section4_call_to_action h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section4_call_to_action button{
+    font-size: 1rem ;
+    font-weight: 600;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+
+}
+
+.section4_call_to_action button:hover{
+    background-color: #4EB478;
+    border: 2px solid #4EB478;
+    transition: all 0.2s ease-in-out;
+}
+
+/* ----------------------------------------section5 SERVICES-------------------------------- */
+
+.section5_services{
+    padding: 70px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section5_services h1{
+    font-size: 1.9rem;
+    padding: 20px;
+    color: #4EB478;
+}
+
+.section5_services h1{
+    /* font-size: 1.8rem; */
+    padding: 20px;
+}
+
+.section5_services .container5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    gap: 40px;
+    
+}
+
+.container5 .box{
+    max-width: 75vh ;
+    padding: 10px;
+    display: flex;
+}
+
+.container5 .box div h3, .container5 .box div p{
+    margin: 10px;
+    padding-bottom: 10px;
+    color: rgb(75, 75, 75);
+}
+
+.container5 .box div p{
+    padding-bottom: 20px;
+}
+
+/* ----------------------------------------section6 PORTFOLIO-------------------------------- */
+
+.section6_services{
+    padding: 70px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f3f3;
+}
+
+.section6_services h1{
+    font-size: 1.9rem;
+    padding: 20px;
+    color: #4EB478;
+}
+
+.section6_services h1{
+    /* font-size: 1.8rem; */
+    padding: 20px;
+}
+
+.section6_services .tags{
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.section6_services .tags p{
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px 0px;
+    color: rgb(75, 75, 75);
+}
+
+.tags:hover{
+    color: #4EB478;
+}
+
+.section6_services .tags :first-child{
+    color: #4EB478;
+}
+
+.section6_services .container6{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.container6_box{
+   max-height: 35vh;
+}
+
+.container6_box img{
+    max-height: 35vh;
+ }
+
+/* ----------------------------------------section7 review-------------------------------- */
+
+.section7_review{
+    background-image: url(https://bootstrapmade.com/demo/templates/Plato/assets/img/testimonials-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 500px; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section7_review img{
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.308);
+}
+
+.section7_review p i span {
+    font-size: 30px;
+}
+
+/* -----------------------------------------------section8_team---------------------------------------------- */
+
+.section8_team{
+    padding: 80px 80px; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section8_team h1{
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 20px;
+    color: #4EB478;
+}
+
+.section8_team p{
+    text-align: center;
+    /* font-size: 1.9rem; */
+    padding-bottom: 30px;
+    /* color: #4EB478; */
+}
+
+.section8_team .container8{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+
+
+}
+
+.container8_box{
+    max-height: 35vh;
+}
+.container8_box img{
+    border-radius: 10px;
+    max-height: 35vh;
+}
+
+/* -----------------------------------------------section9_pricing---------------------------------------------- */
+
+.section9_pricing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+
+}
+
+.section9_pricing h1{
+    /* text-align: center; */
+    font-size: 1.9rem;
+    /* padding: 20px; */
+    color: #4EB478;
+
+}
+
+.section9_pricing p{
+    padding-bottom: 30px
+}
+
+.container9{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 120px;
+}
+
+.container9_box{
+    padding: 50px;
+    /* background-color: rgb(188, 219, 231); */
+    /* border: 2px solid black; */
+    min-height: 50vh;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.116);
+}
+
+.container9_box h1{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+.container9_box div{
+    text-align: left;
+}
+
+.container9_box div p {
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0, 0.582)
+}
+
+
+#container9_box2{
+    transform: scale(1.1);
+    background-color: #4EB478;
+    color: white;
+}
+
+#container9_box2 p{
+    color: white;
+}
+
+#container9_box2 h1{
+    background-color: #4EB478;
+    color: white
+}
+
+.container9_box div p i{
+    padding: 10px;
+    color: #4EB478;
+}
+
+#container9_box2 div p i{
+    padding: 10px;
+    color: #ffffff;
+}
+
+
+.container9_box button{
+    margin: 20px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.58);
+    border: 2px solid rgba(0, 0, 0, 0.58);;
+}
+
+
+
+#container9_box2 button{
+    color: white;
+    border: 1px solid white;
+}
+
+#container9_box2 button:hover{
+    background-color: white;
+    color: #4EB478;
+    transition: all .3s ease-in-out;
+}
+
+.container9_box button:hover{
+    background-color: white;
+    color: #4EB478;
+    border: 2px solid #4EB478;
+    transition: all .3s ease-in-out;
+}
+
+/* -------------------------------------footer contact us -------------------------------------------------- */
+footer{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.contact{
+    text-align: center;
+    padding-top: 50px;
+    color: #4EB478;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 50px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group label {
+    font-size: 1rem;
+}
+
+.input-group input, 
+.input-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.input-group textarea {
+    height: 150px;
+}
+
+.message_button{
+    width: 20vh;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+}
+
+.message{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    transition: all .5s ease-in-out;
+    color: #000000;
+}
+
+footer{
+    color: white;
+}
+
+.info_social p a{
+    text-decoration: none;
+    color: white;
+}
+
+.info_social p a:hover{
+     color: #57eb32;
+     transition: all .3s ease-in-out;
+     /* transform: scale(2); */
+}
+
+.info_social i {
+    font-size: 30px;
+}

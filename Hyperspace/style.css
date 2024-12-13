@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* scroll-behavior: smooth; */
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all .5s ;
+    display: flex;
+    margin-left: 40vh;
+}
+
+/* ------------------------------------------- Side Nav Bar ------------------------------------------------ */
+
+.side-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 40vh;
+    height: 100vh;
+    background-color: #312450;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+    /* border-radius: 0 10px 10px 0; */
+    /* border: 1px solid rgba(255, 255, 255, 0.425); */
+    display: flex;
+    /* align-items:; */
+    justify-content: center;
+    text-align:end;
+
+    
+}
+
+.side-nav ul {
+    list-style: none;
+    text-align:end;
+}
+
+.side-nav ul li {
+    margin: 30px 100px;
+    text-align:end;
+}
+
+.side-nav ul li a {
+    color: #ffffffc2;
+    text-decoration: none;
+    display: block;
+    text-align:end;
+    padding: 10px;
+    /* border-radius: 50%; */
+    transition: background-color 0.3s;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.301);
+}
+
+.side-nav ul li a:hover {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    color: white;
+    border-bottom: 2px solid #5e42a6;
+    transition: all .2s ease-in-out;
+}
+
+/* ------------------------------------------- Containers ------------------------------------------------ */
+
+.container {
+    background-color: #5e42a6;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    color: #ffffff75;
+   
+}
+
+#container-box1{
+    padding-left: 100px;
+}
+.container-box {
+    display: inline-block;
+    gap: 10px;
+}
+
+.container-box h1 {
+    font-size: 60px;
+    padding: 12px;
+    color: white;
+}
+
+.container-box a {
+    color: #ffffff75;
+}
+
+.container-box p {
+    font-size: 30px;
+    padding: 12px;
+}
+
+.container-box button {
+    border: 1px solid #ffffff2a;
+    border-radius: 50px;
+    padding: 23px 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.container-box a:hover {
+    color: white;
+    text-decoration: none;
+    transition: all ease-in-out .5s;
+}
+
+.container-box button:hover {
+    background-color: rgba(255, 255, 255, 0.071);
+    text-decoration: none;
+    transition: all ease-in-out .5s;
+    border-radius: 2px solid white;
+}
+
+#container2, #container3, #container4 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-box {
+    margin-right: 100px;
+    padding-left: 30px;
+}
+
+#container-box2 h1, #container-box3 h1, #container-box4 h1 {
+    font-size: 40px;
+}
+
+#container-box2 p, #container-box3 p, #container-box4 p {
+    font-size: 30px;
+}
+
+#container2 {
+    background-color: #4267b2;
+    display: flex;
+}
+
+#container3 {
+    background-color: #3460b6;
+    display: flex;
+}
+
+#container4 {
+    background-color: #2253b5;
+    display: flex;
+}
+
+#container2 img, #container3 img, #container4 img {
+    height: 50vh;
+}
+
+/* ---------------------------------------- Container 5 - What We Do ---------------------------------- */
+
+#container5 {
+    width: 100%;
+    padding: 100px;
+    background-color: #B74E91;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#container5 h1 {
+    font-size: 40px;
+}
+
+#container5 p {
+    font-size: 25px;
+    color: #ffffff75;
+}
+
+.container5_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container5_box .box {
+    padding: 70px;
+    background-color: #BB5797;
+    max-width: 60vh;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container5_box .box div h3 {
+    font-size: 1.6rem;
+    padding-bottom: 15px;
+}
+
+/* ----------------------------------------- Container 6 - Get in Touch ------------------------------------- */
+
+.container6 {
+    background-color: #5e42a6;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.container6_box div div {
+    display: flex;
+}
+
+.container6 h1 {
+    font-size: 40px;
+}
+
+.container6 p {
+    font-size: 25px;
+    color: #ffffff75;
+}
+
+.container6_box {
+    display: flex;
+}
+
+input {
+    background-color: transparent;
+    height: 50px;
+    width: 500px;
+}
+
+/* -------------------------------------------------- Footer -------------------------------- */
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 50px;
+    background-color: #5e42a6;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0px;
+}
+
+.info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group label {
+    font-size: 1rem;
+}
+
+.input-group input,
+.input-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #5e42a6;
+}
+
+.input-group textarea {
+    height: 150px;
+}
+
+.message_button {
+    width: 20vh;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #5e42a6;
+    border: 1px solid white;
+    color: white;
+}
+
+.message {
+    background-color: #5e42a6;
+}
+
+.message_button:hover {
+    background-color: #f5f5f5;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+footer {
+    color: white;
+}
+
+.info_social p a {
+    text-decoration: none;
+    color: white;
+}

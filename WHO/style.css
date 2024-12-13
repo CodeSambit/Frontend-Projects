@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #274375;
+    color: white;
+    height: 60px;
+}
+
+.navbar .left-buttons,
+.navbar .right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 5px;
+    padding: 19px 19px;
+    cursor: pointer;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* .navbar div :first-child{
+    background-color: #0078D4;
+} */
+
+.Global{
+    background-color: #0078D4;
+}
+.logo{
+    padding: 40px 40px;
+}
+
+.right-buttons {
+    background-color: #274375;
+    text-decoration: none;
+}
+
+a :hover{
+    background-color: #0078D4; 
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#navbar1 {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px; 
+}
+
+.navbar select {
+    padding: 18px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none; /* Remove the border */
+    background-color: transparent; /* Optional: Make background transparent */
+}
+
+option{
+    background-color: #274375;
+    color: white;
+}
+
+.navbar ul li:hover{
+    background-color:#0078D4;
+}
+
+main {
+    background-image: url(https://cdn.who.int/media/images/default-source/who_homepage/world-health-assembly-committee-a.tmb-1920v.jpg?sfvrsn=d8f2a319_6);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 60px;
+}
+
+h1,h3{
+    border-radius: 20px;
+    color: white;
+    background-color: #274375d9;
+}
+
+h1{
+    font-size: 65px;
+    padding: 20px 20px;
+}
+h3{
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+h3 a{
+    text-decoration: none;
+}
+
+
+
+
+
